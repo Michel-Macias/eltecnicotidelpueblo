@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaración de Accesibilidad | El Técnico TI del Pueblo</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css?v=1.0.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="site-header">
+        <nav aria-label="Navegación principal">
+            <div class="logo-container">
+                <a href="index.html" aria-label="Ir al inicio de El Técnico TI del Pueblo">
+                    <span class="logo-text">&gt;_el_tecnico_ti</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Volver al inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" style="padding-top: 8rem; padding-bottom: 5rem;">
+        <div class="container" style="max-width: 800px; background-color: var(--bg-card); border: 1px solid var(--border-color); padding: 3rem;">
+            <span class="section-tag">&gt;_accesibilidad</span>
+            <h1 style="font-family: var(--font-mono); font-size: 2rem; margin-bottom: 2rem; text-transform: uppercase;">Declaración de Accesibilidad</h1>
+            
+            <p><strong>El Técnico TI del Pueblo</strong> se ha comprometido a hacer accesible su sitio web de conformidad con el Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público (que traspone la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo).</p>
+
+            <h3 style="font-family: var(--font-mono); margin: 1.5rem 0 0.5rem; color: var(--crt-amber);">&gt;_situacion_de_cumplimiento</h3>
+            <p>Este sitio web es **plenamente conforme** con la norma UNE-EN 301549:2022 y las pautas WCAG 2.1 en su nivel AA. Todo el portal estático ha sido diseñado bajo los siguientes criterios de accesibilidad:</p>
+            <ul style="list-style: none; padding-left: 1rem; border-left: 2px solid var(--border-color); margin-bottom: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem;">
+                <li><strong>Estructura Semántica:</strong> Jerarquía correcta de títulos (h1, h2, h3) y etiquetas HTML5 semánticas (header, main, nav, section, footer) para facilitar la lectura mediante lectores de pantalla.</li>
+                <li><strong>Contraste de Color:</strong> Aseguramos un contraste mínimo de color de 4.5:1 para cumplir con las guías de legibilidad, adaptando la paleta de colores retro-tech.</li>
+                <li><strong>Navegación por Teclado:</strong> Todos los elementos interactivos (botones, enlaces, menú hamburguesa) disponen de estados `:focus` altamente visibles y son navegables mediante la tecla Tabulación. Se incluye un enlace de acceso rápido ("skip-link").</li>
+                <li><strong>Etiquetas Aria y Descriptivas:</strong> Elementos decorativos disponen de etiquetas descriptivas alternativas (`alt` y `aria-label`) para imágenes y carruseles.</li>
+            </ul>
+
+            <h3 style="font-family: var(--font-mono); margin: 1.5rem 0 0.5rem; color: var(--crt-amber);">&gt;_contacto_y_sugerencias</h3>
+            <p>Si experimenta cualquier tipo de problema de visualización, navegación o accesibilidad en este sitio, o desea realizarnos cualquier consulta o sugerencia de mejora, puede ponerse en contacto directo a través de la dirección de correo electrónico [Email de Contacto] indicando en el asunto "Accesibilidad Web".</p>
+        </div>
+    </main>
+
+    <footer id="site-footer">
+        <div class="container">
+            <div class="footer-layout">
+                <div class="footer-brand">
+                    <span class="logo-text">&gt;_el_tecnico_ti</span>
+                    <p>Ciberseguridad y soporte cercano para Mendigorría y zona media de Navarra.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 El Técnico TI del Pueblo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

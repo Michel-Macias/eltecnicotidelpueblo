@@ -1,0 +1,18 @@
+# Editor and OS caches
+.DS_Store
+Thumbs.db
+*.local
+*.log
+
+# Git local files
+.git/
+
+# Gemini / IDE files
+.gemini/
+.system_generated/
+.project/
+.settings/
+.vscode/
+.idea/
+*.tmp
+*.temp
